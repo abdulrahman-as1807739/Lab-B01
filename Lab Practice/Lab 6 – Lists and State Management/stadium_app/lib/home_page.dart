@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> {
               return ListTile(
                 title: Text(_stadiums[index].name),
                 subtitle: Text(_stadiums[index].city),
-                leading:
-                    Image.asset('assets/images/${_stadiums[index].imageName}'),
+                leading: Image.asset(
+                    'assets/images/${_stadiums[index].imageName}.jpg'),
                 trailing: Text(_stadiums[index].status),
               );
             },
